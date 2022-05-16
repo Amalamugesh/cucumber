@@ -44,6 +44,7 @@ public class LoginStepDefinitions {
          
          Assert.assertEquals("to verify the Search hotel", element, "Search");
          driver.quit();
+         driver.close();
          
 	}
 	
