@@ -43,6 +43,10 @@ public class LoginStepDefinitions {
          WebElement element = driver.findElement(By.xpath("(//*[contains(text(),'Search')])[3]"));
          
          Assert.assertEquals("to verify the Search hotel", element, "Search");
+         driver.quit();
+         
 	}
+	
 
+	
 }
